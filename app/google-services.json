@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1068677929147",
+    "firebase_url": "https://trima-bc927.firebaseio.com",
+    "project_id": "trima-bc927",
+    "storage_bucket": "trima-bc927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068677929147:android:e9e37604e37651b084f19e",
+        "android_client_info": {
+          "package_name": "com.example.trima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068677929147-24jl7s15p19s457nauq57r11knpkoiu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trima",
+            "certificate_hash": "e51606063f272a1ac7d7387e5a4b4f1b241e3709"
+          }
+        },
+        {
+          "client_id": "1068677929147-k54ri69hi2i5lga92hh62ttd8532rp9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4RXb1ZMGuonhRMwqUNWjr_BzmwuKBOMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068677929147-k54ri69hi2i5lga92hh62ttd8532rp9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

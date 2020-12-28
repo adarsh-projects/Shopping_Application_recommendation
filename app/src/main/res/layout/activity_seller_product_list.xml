@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seller.SellerProductListActivity">
+    <RelativeLayout
+        android:id="@+id/sellermaintainProduct"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/logocolor">
+        <TextView
+            android:id="@+id/seller_header_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maintain your product"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/seller_product_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sellermaintainProduct">
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
